@@ -1,29 +1,73 @@
-body {
-    font-family: Arial, sans-serif;
+* {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+html {
+    min-height: 100%;
+    height: 100%;
+}
+body{
+    background-color: rgb(249, 223, 239);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 8px;
+}
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
 }
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
+#my-photo {
+    float: right;
 }
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
+nav {
+    display: flex;
+    margin: 30px;
+    column-gap: 20px;
 }
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
+nav button {
+    padding: 10px;
+    background-color: #B4B4B3;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size: 18px;
 }
-
-.content {
-    padding: 20px;
+main {
+    display: flex;
+    flex: 1;
+}
+aside {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+aside button {
+    font-weight: bold;
+    font-size: larger;
+    background-color: #f1b5f0;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+#content-space {
+    flex: 1;
+    background-color: white;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    font-size: larger;
+    text-align: justify;
+    border-radius: 10px;
+}
+footer {
+    text-align: center;
+    font-size: larger;
+}
+hr {
+    margin-left: 0;
+    margin-right: 0;
 }
