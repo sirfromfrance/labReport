@@ -1,0 +1,15 @@
+{
+    "lr1":{
+        "name": "Lab1",
+        "path":"labs/lab1/",
+        "sections":{
+            "Опис предметного середовища":"description.html",
+            "Тема, мета, місце розташування лаб 1":"aboutLab.html" ,
+            "Структура документа":"structure.html" ,
+            "Таблиці":"tables.html" ,
+            "Форми":"forms.html",
+            "Зображення": "images.html",
+            "Висновки": "conclusion.html"
+        }
+    }
+}
