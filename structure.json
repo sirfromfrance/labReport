@@ -1,6 +1,6 @@
 {
     "lr1":{
-        "name": "Lab1",
+        "name": "Лабораторна робота №1",
         "path":"labs/lab1/",
         "sections":{
             "Опис предметного середовища":"description.html",

@@ -18,36 +18,36 @@ fetch("structure.json")
     nav.appendChild(navText);
   });
 
-function fillNav(data) {
-  Object.entries(data).forEach(function ([button_id, button_data]) {
-    let navButton = document.createElement("button");
-    navButton.id = button_id;
-    navButton.innerText = button_data["name"];
-    nav.appendChild(navButton);
-    navButton.onclick=function(){
+  function fillNav(data) {
+    Object.entries(data).forEach(function ([button_id, button_data]) {
+      let navButton = document.createElement("button");
+      navButton.id = button_id;
+      navButton.innerText = button_data["name"];
+      nav.appendChild(navButton);
+      navButton.onclick = function () {
         sidebar.innerHTML = "";
-        contentSpace.innerHTML="";
-        Object.entries(button_data["sections"]).forEach(function ([section_name, filename]){
-            let asideButton = document.createElement("button")
-            asideButton.innerHTML = section_name;
-            sidebar.append(asideButton);
-            asideButton.onclick=function(){
-                const full_path = button_data["path"] +filename;
-                fetch(full_path)
-                .then(response=>{
-                    if(!response.ok){
-                        throw new Error('something went wrong while uploading the file')
-                    }
-                    return response.text();
-                })
-                .then(htmlData=>{
-                    contentSpace.innerHTML=htmlData;
-                })
-                .catch(error=>{
-                    contentSpace.innerHTML=error;
-                })
-            }
+        Object.entries(button_data["sections"]).forEach(function ([section_name, filename]) {
+          let asideButton = document.createElement("button");
+          asideButton.innerHTML = section_name;
+          sidebar.append(asideButton);
+          asideButton.onclick = function () {
+            const full_path = button_data["path"] + filename;
+            fetch(full_path)
+              .then(response => {
+                if (!response.ok) {
+                  throw new Error('something went wrong while uploading the file')
+                }
+                return response.text();
+              })
+              .then(htmlData => {
+                document.getElementById("content-space").innerHTML = htmlData;
+              })
+              .catch(error => {
+                document.getElementById("content-space").innerHTML = error;
+              })
+          }
         })
-    }
-  });
-}
+      }
+    });
+  }
+  
