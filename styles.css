@@ -20,10 +20,13 @@ body{
     align-items: center;
     flex-direction: column;
     text-align: center;
+  
 }
 #my-photo {
     float: right;
+    border-radius: 30px;
 }
+
 nav {
     display: flex;
     margin: 30px;
@@ -33,7 +36,7 @@ nav button {
     padding: 10px;
     background-color: #B4B4B3;
     font-weight: bolder;
-    border-radius: 10px;
+    border-radius: 25px;
     font-size: 18px;
 }
 main {
@@ -48,20 +51,20 @@ aside {
 aside button {
     font-weight: bold;
     font-size: larger;
-    background-color: #f1b5f0;
+    background-color: #f5c0f4;
     padding: 10px;
     margin: 10px;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 #content-space {
     flex: 1;
     background-color: white;
-    border: 1px solid black;
+    border: 0.1px solid black;
     margin: 10px;
     padding: 10px;
     font-size: larger;
     text-align: justify;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 footer {
     text-align: center;

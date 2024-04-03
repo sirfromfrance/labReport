@@ -1,6 +1,7 @@
 const nav = document.getElementsByTagName("nav")[0];
 const sidebar = document.getElementsByTagName("aside")[0];
-const contentSpace = document.getElementsByTagName("content-space");
+const contentSpace = document.getElementById("content-space");
+
 fetch("structure.json")
   .then((response) => {
     if (!response.ok) {
@@ -17,6 +18,7 @@ fetch("structure.json")
     navText.style.width = "100%";
     nav.appendChild(navText);
   });
+
 
   function fillNav(data) {
     Object.entries(data).forEach(function ([button_id, button_data]) {
