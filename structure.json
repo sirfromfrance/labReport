@@ -11,5 +11,20 @@
             "Зображення": "images.html",
             "Висновки": "conclusion.html"
         }
+    },
+
+    "lr2":{
+        "name":"Лабораторна робота №2",
+        "path":"labs/lab2/",
+        "sections":{
+        "Тема, мета":"description.html" , 
+"Селектори":"selectors.html",
+"селектору тегу":"tag-selectors.html",
+"селектори класу":"class-selectors.html",
+"селоктори ідентифікаторів":"id-selectors.html",
+"інші селектори":"other-selectors.html",
+"CSS: шрифти, текст, таблиці, фон, контур, списки CSS просунутий":"css-style.css", 
+"Висновки": "conclusions.html"
+      }
     }
 }
