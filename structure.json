@@ -1,30 +1,30 @@
 {
-    "lr1":{
-        "name": "Лабораторна робота №1",
-        "path":"labs/lab1/",
-        "sections":{
-            "Опис предметного середовища":"description.html",
-            "Тема, мета, місце розташування лаб 1":"aboutLab.html" ,
-            "Структура документа":"structure.html" ,
-            "Таблиці":"tables.html" ,
-            "Форми":"forms.html",
-            "Зображення": "images.html",
-            "Висновки": "conclusion.html"
-        }
-    },
-
-    "lr2":{
-        "name":"Лабораторна робота №2",
-        "path":"labs/lab2/",
-        "sections":{
-        "Тема, мета":"description.html" , 
-"Селектори":"selectors.html",
-"селектору тегу":"tag-selectors.html",
-"селектори класу":"class-selectors.html",
-"селоктори ідентифікаторів":"id-selectors.html",
-"інші селектори":"other-selectors.html",
-"CSS: шрифти, текст, таблиці, фон, контур, списки CSS просунутий":"css-style.css", 
-"Висновки": "conclusions.html"
-      }
+  "lr1": {
+    "name": "Лабораторна робота №1",
+    "path": "labs/lab1/",
+    "sections": {
+      "Опис предметного середовища": "description.html",
+      "Тема, мета, місце розташування лаб 1": "aboutLab.html",
+      "Структура документа": "structure.html",
+      "Таблиці": "tables.html",
+      "Форми": "forms.html",
+      "Зображення": "images.html",
+      "Висновки": "conclusion.html"
     }
+  },
+
+  "lr2": {
+    "name": "Лабораторна робота №2",
+    "path": "labs/lab2/",
+    "sections": {
+      "Тема, мета": "description.html",
+      "Селектори": "selectors.html",
+      "Селектору тегу": "tag-selectors.html",
+      "Селектори класу": "class-selectors.html",
+      "Селектори ідентифікаторів": "id-selectors.html",
+      "Інші селектори": "other-selectors.html",
+      "CSS: шрифти, текст, таблиці, фон, контур, списки CSS просунутий": "css-style.html",
+      "Висновки": "conclusions.html"
+    }
+  }
 }
