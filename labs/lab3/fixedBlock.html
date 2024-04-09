@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Фіксована блокова верстка</title>
+    <style>
+      .container {
+        width: 600px;
+        margin: 0 auto;
+        overflow: hidden;
+        text-align: center;
+        border: 2px solid black;
+      }
+      .blue {
+        background-color: rgb(105, 105, 242);
+        color: white;
+      }
+      .yellow {
+        background-color: yellow;
+      }
+      .white {
+        background-color: white;
+      }
+      .block {
+        width: 100px;
+        margin: 1px;
+        display: inline-block;
+      }
+      .block:nth-child(1),
+      .block:nth-child(5) {
+        width: 490px;
+        height: 60px;
+        border: 1px solid black;
+        margin: 0px;
+      }
+      .block:nth-child(2),
+      .block:nth-child(4) {
+        width: 130px;
+        height: 300px;
+        border: 2px solid black;
+      }
+      .block:nth-child(3) {
+        width: 210px;
+        height: 300px;
+        border: 2px solid black;
+        margin: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="blue block">1</div>
+      <div class="yellow block">2</div>
+      <div class="white block">4</div>
+      <div class="yellow block">5</div>
+      <div class="blue block">3</div>
+    </div>
+  </body>
+</html>

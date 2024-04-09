@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Гумова блокова верстка</title>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        width: 90vh;
+        margin: auto;
+        margin-top: 10px;
+        border: 2px solid black;
+      }
+
+      .top,
+      .bottom {
+        flex: 1;
+        background: rgb(110, 168, 249);
+        width: 58vh;
+        margin: auto;
+        border: 1px solid black;
+      }
+
+      .row {
+        display: flex;
+        height: 50%;
+        width: 58.5vh;
+        margin: auto;
+      }
+
+      .row div {
+        background: rgb(238, 245, 55);
+        flex: 1;
+        border: 1px solid black;
+        margin-left: 0.1px;
+      }
+      .row div:nth-child(2) {
+        background: white;
+        flex: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">1</div>
+      <div class="row">
+        <div>2</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <div class="bottom">3</div>
+    </div>
+  </body>
+</html>

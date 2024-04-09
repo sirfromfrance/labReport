@@ -26,5 +26,23 @@
       "CSS: шрифти, текст, таблиці, фон, контур, списки CSS просунутий": "css-style.html",
       "Висновки": "conclusions.html"
     }
+  },
+  "lr3": {
+    "name": "Лабораторна робота №3",
+    "path": "labs/lab3/",
+    "sections": {
+      "Тема, мета": "theme.html",
+      "Завдання №1": "firstTask.html",
+      "Завдання №2": "task2.html",
+      "Фіксована таблична верстка ": "fixedTable.html",
+      "Гумова таблична верстка ": "rubbTable.html",
+      "Фіксована блокова верстка": "fixedBlock.html",
+      "Гумова блочна верстка ": "rubberBlock.html",
+      "Завдання №3 FLEXBOX": "task3.html",
+      "Зовнішній вигляд сторінки ": "mainView.html",
+      "HTML-код ": "code.html",
+      "CSS-код сторінки ": "css-code.html ",
+      "Висновки": "summary.html"
+    }
   }
 }
