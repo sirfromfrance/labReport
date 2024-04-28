@@ -56,5 +56,20 @@
       "Висновки": "conclusion.html",
       "Посилання": "links.html"
     }
+  },
+  "lr5": {
+    "name": "Лабораторна робота №5",
+    "path": "labs/lab5/",
+    "sections": {
+      "Постановка задачі": "task.html",
+      "Способи функціонального застосування JavaScript": "methods.html",
+      "Схема URL": "scheme.html",
+      "Обробник подій": "eventHandler.html",
+      "Підстановка (entity)": "entity.html",
+      "Вставка (тег SCRIPT)": "script.html",
+      "Масиви (4 пункт)": "arrays.html",
+      "Виконання 6 пункту": "task6.html",
+      "Висновки": "conclusion.html"
+    }
   }
 }
