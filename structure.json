@@ -71,5 +71,17 @@
       "Виконання 6 пункту": "task6.html",
       "Висновки": "conclusion.html"
     }
+  },
+  "lr6": {
+    "name": "Лабораторна робота №6",
+    "path": "labs/lab6/",
+    "sections": {
+      "Тема та мета": "theme.html",
+      "Callback функції": "functions.html",
+      "Завдання": "task.html",
+      "Скрипт": "script.html",
+      "Висновки": "summary.html",
+      "Посилання": "links.html"
+    }
   }
 }
