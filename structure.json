@@ -72,6 +72,20 @@
       "Висновки": "conclusion.html"
     }
   },
+  "lr 5.1": {
+    "name": "Лабораторна робота №5.1",
+    "path": "labs/lab5_1/",
+    "sections": {
+      "Тема, мета": "theme.html",
+      "Друге завдання": "second.html",
+      "Четверте завдання": "fourth.html",
+      "Шосте завдання": "sixth.html",
+      "Восьме завдання": "eighth.html",
+      "Результат": "result.html",
+      "Висновок": "conclusions.html",
+      "Посилання": "links.html"
+    }
+  },
   "lr6": {
     "name": "Лабораторна робота №6",
     "path": "labs/lab6/",
