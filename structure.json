@@ -104,5 +104,17 @@
       "Висновки": "summary.html",
       "Посилання": "links.html"
     }
+  },
+  "lr7": {
+    "name": "Лабораторна робота №7",
+    "path": "labs/lab7/",
+    "sections": {
+      "Тема та мета": "theme.html",
+      "Завдання 1": "task1.html",
+      "Завдання 2": "task2.html",
+
+      "Висновки": "summary.html",
+      "Посилання": "links.html"
+    }
   }
 }
