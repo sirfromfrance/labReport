@@ -122,6 +122,7 @@
     "path": "labs/lab8/",
     "sections": {
       "Тема та мета": "theme.html",
+      "Бали та сертифікат": "grades.html",
       "Module 1": "module1.html",
       "Module 2": "module2.html",
       "Module 3": "module3.html",
@@ -135,6 +136,7 @@
     "path": "labs/lab9/",
     "sections": {
       "Тема та мета": "theme.html",
+      "Бали та сертифікат": "grades.html",
       "Module 1": "module1.html",
       "Module 2": "module2.html",
       "Module 3": "module3.html",
