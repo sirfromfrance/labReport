@@ -116,5 +116,18 @@
       "Висновки": "summary.html",
       "Посилання": "links.html"
     }
+  },
+  "lr8": {
+    "name": "Лабораторна робота №8",
+    "path": "labs/lab8/",
+    "sections": {
+      "Тема та мета": "theme.html",
+      "Module 1": "module1.html",
+      "Module 2": "module2.html",
+      "Module 3": "module3.html",
+      "Module 4": "module4.html",
+      "Висновки": "summary.html",
+      "Посилання": "links.html"
+    }
   }
 }
