@@ -143,5 +143,16 @@
       "Висновки": "summary.html",
       "Посилання": "links.html"
     }
+  },
+  "AdditionalCourse": {
+    "name": "Курс для додаткових балів",
+    "path": "labs/course/",
+    "sections": {
+      "Назва курсу": "name.html",
+      "Тема і мета": "theme.html",
+      "Що охоплює курс": "tasks.html",
+      "Сертифікат": "certificate.html",
+      "Висновки": "conclusion.html"
+    }
   }
 }
