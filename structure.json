@@ -144,7 +144,7 @@
       "Посилання": "links.html"
     }
   },
-  "AdditionalCourse": {
+  "lr10": {
     "name": "Курс для додаткових балів",
     "path": "labs/course/",
     "sections": {
