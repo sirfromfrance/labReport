@@ -33,7 +33,6 @@
     "sections": {
       "Тема, мета": "theme.html",
       "Завдання №1": "firstTask.html",
-      "Завдання №2": "task2.html",
       "Фіксована таблична верстка ": "fixedTable.html",
       "Гумова таблична верстка ": "rubbTable.html",
       "Фіксована блокова верстка": "fixedBlock.html",
@@ -42,7 +41,8 @@
       "Зовнішній вигляд сторінки ": "mainView.html",
       "HTML-код ": "code.html",
       "CSS-код сторінки ": "css-code.html ",
-      "Висновки": "summary.html"
+      "Висновки": "summary.html",
+      "Посилання": "links.html"
     }
   },
   "lr4": {
